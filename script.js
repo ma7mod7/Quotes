@@ -37,7 +37,7 @@ function copyfun(){
     // clipboard => الحافظه الخاصه بالمتصفح
     // write text => كده انا بكتب القيمه اللي انا عايزها جوه الحافظه دي
     navigator.clipboard.write(datatext.textContent);
-    window.alert(datatext.textContent)
+    // window.alert(datatext.textContent)
 }
   
 
