@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-decoration: none;
+    outline:none;
+    box-sizing: border-box;
+    position: relative;
+   list-style-type: none; 
+   font-family: "Playwrite GB S", "cursive";
+  
+
+    
+}
+body{
+    height: 100svh;
+    max-height: 100svh;
+    background-color: #3B1E54;
+    background: linear-gradient(155deg, #2e003e 45%, #941fd3);
+
+}
+main{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.qo{
+   background-color:#9B7EBD ;
+   border-radius:18px;
+   width: 880px;
+   height: 180px;
+   text-align: center;  
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+  }
+.quot{
+    padding: 30px 8px 0px 8px;
+    font-weight: bold;
+
+}
+.autthor{
+    font-weight: 400;
+    padding: 6px;
+ 
+}
+button {
+    left: -400px;
+    top: 12px;
+    background-color: #9B7EBD;
+
+   
+}
+button .icon:hover{
+    transform: scale(1.06);
+    background-color:#4b0164 ;
+
+   
+}
+
+button .icon{
+    font-size: 20px;
+    color: white;
+    background-color:#433878;
+    padding: 7px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+
+}
+@media (max-width:320px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .qo{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+    button{
+        left:-120px;
+
+    }
+}
+@media(min-width:321px) and (max-width:375px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .qo{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+    button{
+        left:-150px;
+
+    }
+}
+
+@media(min-width:376px) and (max-width:425px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .qo{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+    button{
+        left:-175px;
+
+    }
+}
+
+@media(min-width:426px) and (max-width:768px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .qo{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        
+    }
+    button{
+        left:-340px;
+
+    }
+    .quot{
+       padding: 15px;
+        font-weight: bold;
+    
+    }
+    .autthor{
+        padding: 8px;
+    }
+}
