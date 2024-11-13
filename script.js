@@ -33,11 +33,9 @@ resp.onload=function(){
 function copyfun(){
     let datatext=document.querySelector(".quot");
     
-    // navigator => the object of website that i used
-    // clipboard => الحافظه الخاصه بالمتصفح
-    // write text => كده انا بكتب القيمه اللي انا عايزها جوه الحافظه دي
+
     navigator.clipboard.write(datatext.textContent);
-    // window.alert(datatext.textContent)
+     window.alert(datatext.textContent)
 }
   
 
